@@ -68,14 +68,12 @@ This project uses the **Isolation Forest** algorithm to detect anomalous transac
    git clone https://github.com/yourusername/aml-monitoring-framework.git
    cd aml-monitoring-framework
 2. Set up a virtual environment:
-'''
+    ```bash
     python3 -m venv .venv
     source .venv/bin/activate  # On Windows, use .venv\Scripts\activate
 3. Install Dependencies
-'''
-pip install -r requirements.txt
-
+    ```bash
+    pip install -r requirements.txt
 4. Run Jupyter notebook
-''' 
-jupyter notebook
-
+    ```bash
+    jupyter notebook
